@@ -65,7 +65,7 @@ module.exports = function(grunt) {
                 done(false);
             }
             else {
-                grunt.log.write("All webapps have been validated");
+                grunt.log.writeln("All webapps have been validated");
                 done(true);
             }
         });
