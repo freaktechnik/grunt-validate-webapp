@@ -5,3 +5,11 @@ install:
 - npm install grunt-cli -g
 script:
 - grunt
+deploy:
+  provider: npm
+  email: martin@humanoids.be
+  on:
+    tags: true
+  api_key:
+    secure: akYzckFtPYvleItY3lc4h2RIVW1JcOFHnOo4nw0QZ/KvxnD3s6XVGTfnhrb2rug8wFVLyrYrIIAUdb3vsIGQjVdxeWjI9Lzzc7EwQPBzjr9wssqQ89MRJBjp/GQyy6LWCTlxTiwvMEVQDkEsqTyhJKtwvwYu/8DmPF4sR/goDf8=
+
