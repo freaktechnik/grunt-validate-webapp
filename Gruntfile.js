@@ -27,7 +27,7 @@ module.exports = function(grunt) {
       default_options: {
         files: { src: 'test/packaged-manifest.webapp'}
       },
-      custom_options {
+      custom_options: {
         options: { packaged: false },
         files: { src: 'test/manifest.webapp'}
       }
