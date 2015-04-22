@@ -55,7 +55,7 @@ module.exports = function(grunt) {
                         callback(true);
                     }
                     else {
-                        grunt.log.ok('Manifest "'+filepath+'" is valid');
+                        grunt.log.verbose.ok('Manifest "'+filepath+'" is valid');
                         callback();
                     }
                 });
@@ -65,7 +65,7 @@ module.exports = function(grunt) {
                 done(false);
             }
             else {
-                grunt.log.writeln("All webapps have been validated");
+                grunt.log.ok("All webapps have been validated");
                 done(true);
             }
         });
