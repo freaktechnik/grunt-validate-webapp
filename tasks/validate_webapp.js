@@ -17,8 +17,9 @@ module.exports = function(grunt) {
 
         var options = this.options({
             url: false,
-            packaged: false,
-            absolute: false
+            packaged: true,
+            absolute: false,
+            listed: false
         });
 
         var validator = new WebAppValidator(options.absolute);

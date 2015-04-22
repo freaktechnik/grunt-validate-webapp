@@ -43,15 +43,21 @@ Type: `Bool`
 Default value: `false`
 
 Determines if icon URLs in the webapp manifest are assumed to be relative to the
-manifest's location or absolutely to the path the task is run from.
+manifest's location or absolutely to the path the task is run from. Note that this
+does not affect the appcache manifest location check.
 
 #### options.packaged
 Type: `Bool`
+Default value: `true`
+
+If `true` the manifest is validated for a packaged app, as in appcache manifests
+are disallowed.
+
+#### options.listed
+Type: `Bool`
 Default value: `false`
 
-If `true` a packaged app instead of a webapp are expected. Doesn't currently actually
-work, as the task expects .webapp files and the icon validation doesn't work
-with packaged apps yet. But the option is there...
+Whether or not this app will be listed on the Marketplace.
 
 ## Contributing
 In lieu of a formal styleguide, take care to maintain the existing coding style. Add unit tests for any new or changed functionality. Lint and test your code using [Grunt](http://gruntjs.com/).
