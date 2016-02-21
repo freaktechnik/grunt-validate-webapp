@@ -1,7 +1,7 @@
 {
   "name": "grunt-validate-webapp",
   "description": "Grunt task to validate a webapp manifest file",
-  "version": "0.1.3",
+  "version": "0.1.4",
   "homepage": "https://github.com/freaktechnik/grunt-validate-webapp",
   "author": {
     "name": "Martin Giger",
