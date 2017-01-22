@@ -1,5 +1,7 @@
 # grunt-validate-webapp
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/freaktechnik/grunt-validate-webapp.svg)](https://greenkeeper.io/)
+
 > Grunt task to validate a webapp manifest file
 
 ## Getting Started
